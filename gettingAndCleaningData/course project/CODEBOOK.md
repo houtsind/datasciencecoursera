@@ -11,66 +11,66 @@ The tidy data set contained within the working directory has the following varia
 * 6         tBodyAcc.std.xAxis: std of body accelerometer by time by the x axis
 * 7         tBodyAcc.std.yAxis: std of body accelerometer by time by the y axis
 * 8         tBodyAcc.std.zAxis: std of body accelerometer by time by the z axis
-* 9     tGravityAcc.mean.xAxis: mean of body accelerometer by time by the x axis
-* 10    tGravityAcc.mean.yAxis: mean of body accelerometer by time by the y axis
-* 11    tGravityAcc.mean.zAxis: mean of body accelerometer by time by the z axis
-* 12     tGravityAcc.std.xAxis: std of body accelerometer by time by the x axis
-* 13     tGravityAcc.std.yAxis: std of body accelerometer by time by the y axis
-* 14     tGravityAcc.std.zAxis: std of body accelerometer by time by the z axis
-* 15   tBodyAccJerk.mean.xAxis: mean of body accelerometer by time by the x axis
-* 16   tBodyAccJerk.mean.yAxis: mean of body accelerometer by time by the y axis
-* 17   tBodyAccJerk.mean.zAxis: mean of body accelerometer by time by the z axis
-* 18    tBodyAccJerk.std.xAxis: std of body accelerometer by time by the x axis
-* 19    tBodyAccJerk.std.yAxis: std of body accelerometer by time by the y axis
-* 20    tBodyAccJerk.std.zAxis: std of body accelerometer by time by the z axis
-* 21      tBodyGyro.mean.xAxis: mean of body accelerometer by time by the x axis
-* 22      tBodyGyro.mean.yAxis: mean of body accelerometer by time by the y axis
-* 23      tBodyGyro.mean.zAxis: mean of body accelerometer by time by the z axis
-* 24       tBodyGyro.std.xAxis: std of body accelerometer by time by the x axis
-* 25       tBodyGyro.std.yAxis: std of body accelerometer by time by the y axis
-* 26       tBodyGyro.std.zAxis: std of body accelerometer by time by the z axis
-* 27  tBodyGyroJerk.mean.xAxis: mean of body accelerometer by time by the x axis
-* 28  tBodyGyroJerk.mean.yAxis: mean of body accelerometer by time by the y axis
-* 29  tBodyGyroJerk.mean.zAxis: mean of body accelerometer by time by the z axis
-* 30   tBodyGyroJerk.std.xAxis: std of body accelerometer by time by the x axis
-* 31   tBodyGyroJerk.std.yAxis: std of body accelerometer by time by the y axis
-* 32   tBodyGyroJerk.std.zAxis: std of body accelerometer by time by the z axis
-* 33          tBodyAccMag.mean: mean of body accelerometer by time
-* 34           tBodyAccMag.std: std of body accelerometer by time
-* 35       tGravityAccMag.mean:
-* 36        tGravityAccMag.std:
-* 37      tBodyAccJerkMag.mean:
-* 38       tBodyAccJerkMag.std:
-* 39         tBodyGyroMag.mean:
-* 40          tBodyGyroMag.std:
-* 41     tBodyGyroJerkMag.mean:
-* 42      tBodyGyroJerkMag.std:
-* 43       fBodyAcc.mean.xAxis:
-* 44       fBodyAcc.mean.yAxis:
-* 45       fBodyAcc.mean.zAxis:
-* 46        fBodyAcc.std.xAxis:
-* 47        fBodyAcc.std.yAxis:
-* 48        fBodyAcc.std.zAxis:
-* 49   fBodyAccJerk.mean.xAxis:
-* 50   fBodyAccJerk.mean.yAxis:
-* 51   fBodyAccJerk.mean.zAxis:
-* 52    fBodyAccJerk.std.xAxis:
-* 53    fBodyAccJerk.std.yAxis:
-* 54    fBodyAccJerk.std.zAxis:
-* 55      fBodyGyro.mean.xAxis:
-* 56      fBodyGyro.mean.yAxis:
-* 57      fBodyGyro.mean.zAxis:
-* 58       fBodyGyro.std.xAxis:
-* 59       fBodyGyro.std.yAxis:
-* 60       fBodyGyro.std.zAxis:
-* 61          fBodyAccMag.mean:
-* 62           fBodyAccMag.std:
-* 63  fBodyBodyAccJerkMag.mean:
-* 64   fBodyBodyAccJerkMag.std:
-* 65     fBodyBodyGyroMag.mean:
-* 66      fBodyBodyGyroMag.std:
-* 67 fBodyBodyGyroJerkMag.mean:
-* 68  fBodyBodyGyroJerkMag.std:
+* 9     tGravityAcc.mean.xAxis: mean of gravity accelerometer by time by the x axis
+* 10    tGravityAcc.mean.yAxis: mean of gravity accelerometer by time by the y axis
+* 11    tGravityAcc.mean.zAxis: mean of gravity accelerometer by time by the z axis
+* 12     tGravityAcc.std.xAxis: std of gravity accelerometer by time by the x axis
+* 13     tGravityAcc.std.yAxis: std of gravity accelerometer by time by the y axis
+* 14     tGravityAcc.std.zAxis: std of gravity accelerometer by time by the z axis
+* 15   tBodyAccJerk.mean.xAxis: mean of body accelerometer jerk signals by time by the x axis
+* 16   tBodyAccJerk.mean.yAxis: mean of body accelerometer jerk signals by time by the y axis
+* 17   tBodyAccJerk.mean.zAxis: mean of body accelerometer jerk signals by time by the z axis
+* 18    tBodyAccJerk.std.xAxis: std of body accelerometer jerk signals by time by the x axis
+* 19    tBodyAccJerk.std.yAxis: std of body accelerometer jerk signals by time by the y axis
+* 20    tBodyAccJerk.std.zAxis: std of body accelerometer jerk signals by time by the z axis
+* 21      tBodyGyro.mean.xAxis: mean of body gyroscope by time by the x axis
+* 22      tBodyGyro.mean.yAxis: mean of body gyroscope by time by the y axis
+* 23      tBodyGyro.mean.zAxis: mean of body gyroscope by time by the z axis
+* 24       tBodyGyro.std.xAxis: std of body gyroscope by time by the x axis
+* 25       tBodyGyro.std.yAxis: std of body gyroscope by time by the y axis
+* 26       tBodyGyro.std.zAxis: std of body gyroscope by time by the z axis
+* 27  tBodyGyroJerk.mean.xAxis: mean of body gyroscope jerk signals by time by the x axis
+* 28  tBodyGyroJerk.mean.yAxis: mean of body gyroscope jerk signals by time by the y axis
+* 29  tBodyGyroJerk.mean.zAxis: mean of body gyroscope jerk signals by time by the z axis
+* 30   tBodyGyroJerk.std.xAxis: std of body gyroscope jerk signals by time by the x axis
+* 31   tBodyGyroJerk.std.yAxis: std of body gyroscope jerk signals by time by the y axis
+* 32   tBodyGyroJerk.std.zAxis: std of body gyroscope jerk signals by time by the z axis
+* 33          tBodyAccMag.mean: mean of body accelerometer magnitude by time
+* 34           tBodyAccMag.std: std of body accelerometer magnitude by time
+* 35       tGravityAccMag.mean: mean of gravity accelerometer magnitude by time
+* 36        tGravityAccMag.std: std of gravity accelerometer magnitude by time
+* 37      tBodyAccJerkMag.mean: mean of body accelerometer magnitude jerk signals by time
+* 38       tBodyAccJerkMag.std: std of body accelerometer magnitude jerk signals by time
+* 39         tBodyGyroMag.mean: mean of body gyroscope magnitude by time
+* 40          tBodyGyroMag.std: std of body gyroscope magnitude by time
+* 41     tBodyGyroJerkMag.mean: mean of body gyroscope jerk signals magnitude by time
+* 42      tBodyGyroJerkMag.std: std of body gyroscope jerk signals magnitude by time
+* 43       fBodyAcc.mean.xAxis: mean of body accelerometer by frequency domain signal by the x axis
+* 44       fBodyAcc.mean.yAxis: mean of body accelerometer by frequency domain signal by the y axis
+* 45       fBodyAcc.mean.zAxis: mean of body accelerometer by frequency domain signal by the z axis
+* 46        fBodyAcc.std.xAxis: std of body accelerometer by frequency domain signal by the x axis
+* 47        fBodyAcc.std.yAxis: std of body accelerometer by frequency domain signal by the y axis
+* 48        fBodyAcc.std.zAxis: std of body accelerometer by frequency domain signal by the z axis
+* 49   fBodyAccJerk.mean.xAxis: mean of body accelerometer jerk signals by frequency domain signal by the x axis
+* 50   fBodyAccJerk.mean.yAxis: mean of body accelerometer jerk signals by frequency domain signal by the y axis
+* 51   fBodyAccJerk.mean.zAxis: mean of body accelerometer jerk signals by frequency domain signal by the z axis
+* 52    fBodyAccJerk.std.xAxis: std of body accelerometer jerk signals by frequency domain signal by the x axis
+* 53    fBodyAccJerk.std.yAxis: std of body accelerometer jerk signals by frequency domain signal by the y axis
+* 54    fBodyAccJerk.std.zAxis: std of body accelerometer jerk signals by frequency domain signal by the z axis
+* 55      fBodyGyro.mean.xAxis: mean of body gyroscope by frequency domain signal by the x axis
+* 56      fBodyGyro.mean.yAxis: mean of body gyroscope by frequency domain signal by the y axis
+* 57      fBodyGyro.mean.zAxis: mean of body gyroscope by frequency domain signal by the z axis
+* 58       fBodyGyro.std.xAxis: std of body gyroscope by frequency domain signal by the x axis
+* 59       fBodyGyro.std.yAxis: std of body gyroscope by frequency domain signal by the y axis
+* 60       fBodyGyro.std.zAxis: std of body gyroscope by frequency domain signal by the z axis
+* 61          fBodyAccMag.mean: mean of body accelerometer magnitude by frequency domain signal
+* 62           fBodyAccMag.std: std of body accelerometer magnitude by frequency domain signal
+* 63  fBodyBodyAccJerkMag.mean: mean of body accelerometer jerk signals magnitude by frequency domain signal
+* 64   fBodyBodyAccJerkMag.std: std of body accelerometer jerk signals magnitude by frequency domain signal
+* 65     fBodyBodyGyroMag.mean: mean of body body gyroscope magnitude by frequency domain signal
+* 66      fBodyBodyGyroMag.std: std of body body gyroscope magnitude by frequency domain signal
+* 67 fBodyBodyGyroJerkMag.mean: mean of body body gyroscope jerk signals magnitude by frequency domain signal
+* 68  fBodyBodyGyroJerkMag.std: std of body body gyroscope jerk signals magnitude by frequency domain signal
 
 Original feature notes
 ---
